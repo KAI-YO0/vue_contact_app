@@ -60,7 +60,7 @@ const updateContact = async() => {
     }
 
     try{
-        const url = `/api/contacts/${route.params.id}`;
+        const url = `https://node-contact-app-backend.onrender.com/api/contacts/${route.params.id}`;
         const response = await axios.put(url, contact.value);
         console.log(response.data);
 

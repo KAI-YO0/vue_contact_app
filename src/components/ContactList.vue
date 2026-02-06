@@ -35,7 +35,7 @@
     import ClipLoader from 'vue-spinner/src/ClipLoader.vue';
     import { useToast } from 'vue-toastification'
 
-    const apiUrl = '/api/contacts';
+    const apiUrl = 'https://node-contact-app-backend.onrender.com/api/contacts';
 
     const contacts = ref([]);
     const loading = ref([true]);

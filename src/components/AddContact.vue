@@ -48,7 +48,7 @@ const saveContact = async () => {
     }
 
     try {
-        const url = '/api/contacts';
+        const url = 'https://node-contact-app-backend.onrender.com/api/contacts';
         const response = await axios.post(url, contact.value);
         console.log(response);
         if(response.status === 201) {
